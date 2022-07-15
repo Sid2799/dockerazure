@@ -1,0 +1,4 @@
+mvn clean install
+docker image build -t dockerhub1.azurecr.io/dokerimage:2 .
+docker login -u dockerhub1 -p O0FWc1WZZM/IhRhrg=0Xg1wFWQf+0aK1 dockerhub1.azurecr.io
+docker image push dockerhub1.azurecr.io/dokerimage:2 
